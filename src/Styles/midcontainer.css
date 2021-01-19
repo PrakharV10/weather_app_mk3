@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+.mid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 7.5rem 1rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #686767;
+    box-sizing: border-box;
+}
+
+.mid-container .temp{
+    font-size: 6rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -.5rem;
+    opacity: 0;
+    animation: fade-up 1000ms ease-out 1400ms forwards;
+}
+
+.sub-text .weather-stat{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 0;
+    animation: fade-up 1000ms ease-out 1400ms forwards;
+}
+
+.sub-text .quote{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    opacity: 0;
+    animation: fade-up 1000ms ease-out 1400ms forwards;
+}
+
+@media screen and (min-width : 768px){
+    .mid-container{
+        position: relative;
+        margin-top: 10rem;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .mid-container .temp{
+
+        height: 220px;
+        font-size: 10rem;
+        margin-bottom: -2rem;
+    }
+
+    .sub-text{
+        font-size: 1.5rem;
+        max-height: fit-content;
+        margin-left: 1rem;
+    }
+
+    .sub-text .weather-stat{
+        margin-top: 6rem;
+    }
+
+    
+}
+
+@keyframes fade-up{
+    from{
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

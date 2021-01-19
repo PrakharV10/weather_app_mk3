@@ -1,0 +1,49 @@
+.upper-text{
+    margin: 3rem 1.1rem 0;   
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.upper-text .city-name{
+    font-weight: 600;
+    font-size: 2rem;
+    animation: city-fade 1000ms ease-out;
+}
+
+.upper-text .current-day{
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    opacity: 0;
+    animation: time-fade 1000ms ease-out 400ms forwards ;
+}
+
+@media screen and (min-width : 768px){
+    .upper-text .city-name{
+        font-size: 3rem;
+    }
+
+    .upper-text .current-day{
+        font-size: 1rem;
+    }
+}
+
+@keyframes city-fade{
+    from{
+        opacity: 0;
+        transform: translateX(-5%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes time-fade{
+    from{
+        opacity: 0;
+        transform: translateX(-5%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

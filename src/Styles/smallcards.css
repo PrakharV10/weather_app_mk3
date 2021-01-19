@@ -1,0 +1,21 @@
+.small-cards{
+    width : fit-content
+}
+
+.small-cards .card-head{
+    font-family: 'Vollkorn', serif;
+    color : #FFFFFF70;
+    font-size: 1.01;
+}
+
+.small-cards .card-number{
+    font-family: 'Vollkorn', serif;
+    font-size: 2rem;
+    
+}
+
+@media screen and (min-width : 768px){
+    .small-cards .card-head{
+        font-size: 1.2rem;
+    }
+}

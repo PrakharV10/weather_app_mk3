@@ -1,0 +1,70 @@
+.search-bar{
+    background-color:transparent;
+    border-radius: 50px;
+    --size : 40px;
+    width: var(--size);
+    height: var(--size);
+    transition: all 300ms ease-in-out;
+    position: relative;
+    overflow: hidden;
+    padding-left: .5rem;
+    z-index: 5;
+    
+    & ::placeholder{
+        font-family: 'Vollkorn', serif;
+    }
+    
+    & form{
+        display: flex;
+        justify-content: center;
+    }
+
+    & input{
+        cursor: pointer;
+        align-self: center;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        flex-grow: 1;
+        color: #1D1D1D;
+        height: var(--size);
+        padding-left: 1rem;
+        font-size: 1rem;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+    }
+
+    & button{
+        color : white;
+        padding: 0;
+        background-color: #1d1d1d;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        height: calc(var(--size));
+        width: calc(var(--size));
+        margin-left: auto;
+        transition: all 300ms ease-in-out;
+    }
+
+    &:focus-within{
+        background-color: white;
+        width: 270px;
+
+        & input{
+            cursor: initial;
+            opacity: 1;
+        }
+
+        & button{
+            color: #1d1d1d;
+            background-color: transparent;
+        }
+    }
+
+}
+

@@ -1,0 +1,25 @@
+.wrapper{
+    background-image: url('../assets/Images/Background2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: max-content;     
+    min-height: 100vh;
+    color : white;
+}
+
+.warm{
+    background-image: url('../assets/Images/Background-sunny.jpg');
+}
+
+.freeze{
+    background-image: url('../assets/Images/freeze.jpg');
+}
+
+
+.wrapper-mask{
+    box-sizing: border-box;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #1d1d1d8f;
+}
