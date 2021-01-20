@@ -7,6 +7,11 @@ This is a Weather Application Project. You can search up city names, to know the
 - ReactJs
 - Weather APIs
 
+## Screenshots - 
+![weather2](https://user-images.githubusercontent.com/70899048/105158009-85222800-5b33-11eb-831e-a843e6a9451e.JPG)
+![weather1](https://user-images.githubusercontent.com/70899048/105158015-86ebeb80-5b33-11eb-8546-b899e462b819.JPG)
+
+
 ## My Takeaways from the Project-
 - Worked with React Function based Components.
 - Used Props, for removing redundant code and writing an optimized & clean code.
