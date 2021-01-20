@@ -18,9 +18,7 @@ function Main() {
     
         var location = event.target.elements.location.value;
     
-        const API_KEY = "440c918f2c753c19f172f05ea9e35754";
-    
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}&units=metric`;
+        const url = `${process.env.REACT_APP_WEATHER_URL}?q=${location}&appid=${process.env.REACT_APP_WEATHER_KEY}&units=metric`;
     
         fetch(url)
         .then(Response => Response.json())
