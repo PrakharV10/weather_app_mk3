@@ -21,10 +21,14 @@ This is a Weather Application Project. You can search up city names, to know the
 - Used .env for effectively hiding, details.
 
 ## Hosted Link - 
+[PV-weather-app](https://pv-weather.netlify.app)
 
 
 ## Got Queries?
 **Connect with me on -** 
+- [Linkedin](https://www.linkedin.com/in/prakhar-varshney-6b3a92181/)
+- [Twitter](https://twitter.com/Prakhar10V)
 
 
-
+## Check out my blogs - 
+- [PV-Blogs](https://prakhar10-blog.netlify.app/)
